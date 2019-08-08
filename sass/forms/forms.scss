@@ -1,0 +1,8 @@
+@import "../colours/variables";
+
+input[type=text], input[type=password] {
+  border: 1px solid $secondary;
+  width: 55%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

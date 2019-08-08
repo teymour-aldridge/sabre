@@ -57,10 +57,16 @@ nav > ul > li {
         display: block;
     }
 }
-
 .red {
     background: rgba(237, 28, 69, 0.85);
     color: white;
+}
+
+input[type=text], input[type=password] {
+    border: 1px solid black;
+    width: 55%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
