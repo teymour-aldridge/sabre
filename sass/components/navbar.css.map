@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "navbar.scss",
+    "../colours/variables.scss"
+  ],
+  "names": [],
+  "mappings": "AACA;EACE;EACA,YCFU;;;ADIZ;EACE;;;AAEF;EACE;EACA,YCVQ;EDWR,OCVU;;;ADYZ;EACE",
+  "file": "navbar.css"
+}
