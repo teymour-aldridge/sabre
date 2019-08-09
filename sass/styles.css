@@ -61,9 +61,15 @@ nav > ul > li {
         display: block;
     }
 }
-.red {
+
+.pink {
     background: rgba(237, 28, 69, 0.85);
-    color: white;
+    color: #fff;
+}
+
+.blue {
+    background: #1269ff;
+    color: #fff;
 }
 
 input[type=text], input[type=password] {
