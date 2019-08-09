@@ -61,15 +61,20 @@ nav > ul > li {
         display: block;
     }
 }
-
 .pink {
-    background: rgba(237, 28, 69, 0.85);
-    color: #fff;
+    background: rgba(237, 28, 69, 0.85) !important;
 }
 
 .blue {
-    background: #1269ff;
-    color: #fff;
+    background: #1269ff !important;
+}
+
+.orange {
+    background: #f78432 !important;
+}
+
+.text-white {
+    color: #fff !important;
 }
 
 input[type=text], input[type=password] {

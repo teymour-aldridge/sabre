@@ -1,11 +1,17 @@
 @import "./variables";
 
 .pink {
-  background: $pink;
-  color: $white;
+  background: $pink !important;
 }
 
 .blue {
-  background: $blue;
-  color: $white;
+  background: $blue !important;
+}
+
+.orange {
+  background: $orange !important;
+}
+
+.text-white {
+  color: $white !important;
 }
