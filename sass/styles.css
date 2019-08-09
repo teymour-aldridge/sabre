@@ -77,6 +77,43 @@ nav > ul > li {
     color: #fff !important;
 }
 
+.button-small {
+    background: white;
+    box-shadow: none;
+    border: none;
+    padding: 8px;
+}
+
+.button-medium {
+    background: white;
+    box-shadow: none;
+    border: none;
+    padding: 16px;
+}
+
+.button-large {
+    background: white;
+    box-shadow: none;
+    border: none;
+    padding: 32px;
+}
+
+.pink {
+    background: rgba(237, 28, 69, 0.85) !important;
+}
+
+.blue {
+    background: #1269ff !important;
+}
+
+.orange {
+    background: #f78432 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
 input[type=text], input[type=password] {
     border: 1px solid black;
     width: 55%;
