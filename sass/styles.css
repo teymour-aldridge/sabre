@@ -70,4 +70,12 @@ input[type=text], input[type=password] {
     padding-left: 10px;
 }
 
+textarea {
+    border: 1px solid black;
+    width: 55%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */

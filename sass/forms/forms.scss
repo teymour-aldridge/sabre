@@ -7,3 +7,11 @@ input[type=text], input[type=password] {
   padding-bottom: 10px;
   padding-left: 10px;
 }
+
+textarea {
+  border: 1px solid $secondary;
+  width: 55%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
