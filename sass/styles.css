@@ -38,7 +38,7 @@ h3 {
 nav {
     background-color: black;
     position: sticky;
-    padding: 1% 5%;
+    padding: 10px 20px;
 }
 
 nav > ul {
@@ -52,6 +52,10 @@ nav > ul > li {
 }
 
 @media screen and (max-width: 700px) {
+    nav {
+        padding: 20px 0;
+    }
+
     nav > ul > li {
         width: 100%;
         display: block;
