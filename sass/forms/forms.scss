@@ -1,4 +1,5 @@
 @import "../colours/variables";
+@import "../components/button";
 
 input[type=text], input[type=password] {
   border: 1px solid $secondary;
@@ -14,4 +15,8 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
+}
+
+input[type=submit] {
+  @include button();
 }
