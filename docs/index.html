@@ -14,6 +14,10 @@
     window.$docsify = {
       name: '',
       repo: ''
+    };
+    // Register service worker (for offline mode).
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
