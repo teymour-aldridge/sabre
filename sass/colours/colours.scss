@@ -1,17 +1,13 @@
 @import "./variables";
 
-.pink {
-  background: $pink !important;
+@each $name, $value in $colours {
+  .bg-#{$name} {
+    background-color: $value !important;
+  }
 }
 
-.blue {
-  background: $blue !important;
-}
-
-.orange {
-  background: $orange !important;
-}
-
-.text-white {
-  color: $white !important;
+@each $name, $value in $colours {
+  .text-#{$name} {
+    background-color: $value !important;
+  }
 }
