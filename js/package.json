@@ -2,7 +2,7 @@
   "name": "box-web",
   "version": "1.0.0",
   "description": "A comprehensive CSS framework with interfaces to JS DOM manipulation libraries.",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
