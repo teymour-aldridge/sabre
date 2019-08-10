@@ -6,17 +6,9 @@
   border: none;
 }
 
-.button-small {
-  @extend .button;
-  padding: 8px 16px;
-}
-
-.button-medium {
-  @extend .button;
-  padding: 16px;
-}
-
-.button-large {
-  @extend .button;
-  padding: 32px;
+@for $padding from 1 through 8 {
+  .button-#{$padding} {
+    @extend .button;
+    padding: $padding*2 $padding*4;
+  }
 }
