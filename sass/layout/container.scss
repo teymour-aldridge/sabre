@@ -1,3 +1,7 @@
+@mixin container {
+  margin-left: 10%;
+  margin-right: 25%;
+}
 .container {
-  padding: 1% 10%;
+  @include container();
 }
