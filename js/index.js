@@ -1,4 +1,4 @@
-const components = require("./components/index");
+const Button = require("./components/buttons");
 module.exports = {
-    Button: components.Button,
+    Button
 };
