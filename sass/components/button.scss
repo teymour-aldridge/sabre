@@ -1,22 +1,22 @@
 @import "../colours/colours";
 
-@mixin button {
+.button {
   background: $primary;
   box-shadow: none;
   border: none;
 }
 
 .button-small {
-  @include button();
-  padding: 8px;
+  @extend .button;
+  padding: 8px 16px;
 }
 
 .button-medium {
-  @include button();
+  @extend .button;
   padding: 16px;
 }
 
 .button-large {
-  @include button();
+  @extend .button;
   padding: 32px;
 }
