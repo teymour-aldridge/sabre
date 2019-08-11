@@ -1,6 +1,8 @@
+@import "./variables";
+
 .header {
   // Left, right, bottom, top
-  padding: 25% 15% 5% 25%;
+  padding: $left-padding, 15% 5% 25%;
   h1 {
     line-height: 1;
   }
