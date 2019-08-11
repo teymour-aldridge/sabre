@@ -1,5 +1,3 @@
-@import "../colours/variables";
-
 .navbar {
   background-color: $secondary;
   position: sticky;
@@ -17,7 +15,6 @@
     text-decoration: none;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
-    -ms-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
   }
