@@ -6,6 +6,6 @@
 
 @each $name, $value in $colours {
   .text-#{$name} {
-    background-color: $value !important;
+    color: $value !important;
   }
 }
