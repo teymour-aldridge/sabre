@@ -1,10 +1,11 @@
 .header {
-  padding: 15%, 15% 5% 25%;
+  padding: 128px 5% 5% 15%;
 }
 .header h1 {
   line-height: 1;
+  margin: 0;
 }
-.header h2 {
+.header h3 {
   line-height: 1;
 }
 
@@ -21,17 +22,79 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 128px;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 64px;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 48px;
 }
 
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 756px) {
+  h1 {
+    font-size: 102.4px;
+  }
+
+  h2 {
+    font-size: 51.2px;
+  }
+
+  h3 {
+    font-size: 38.4px;
+  }
+
+  h4 {
+    font-size: 25.6px;
+  }
+
+  h5 {
+    font-size: 19.2px;
+  }
+
+  h6 {
+    font-size: 12.8px;
+  }
+}
+@media screen and (max-width: 512px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  h6 {
+    font-size: 8px;
+  }
+}
 .navbar {
   background-color: black;
   position: sticky;

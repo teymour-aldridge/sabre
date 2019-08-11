@@ -1,12 +1,13 @@
 @import "./variables";
 
 .header {
-  // Left, right, bottom, top
-  padding: $left-padding, 15% 5% 25%;
+  // top right bottom left
+  padding: 128px 5% 5% $padding-left;
   h1 {
     line-height: 1;
+    margin: 0;
   }
-  h2 {
+  h3 {
     line-height: 1;
   }
 }

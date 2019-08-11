@@ -1,19 +1,30 @@
-$h1-font-size: 4em;
-$h2-font-size: 3rem;
-$h3-font-size: 2rem;
-$font-family: Avenir, sans-serif;
+@import "variables";
+
 body {
   font-family: $font-family;
 }
 
-h1 {
-  font-size: $h1-font-size;
+@each $size in $heading-sizes {
+  $heading-no: index($heading-sizes, $size);
+  h#{$heading-no} {
+    font-size: $size;
+  }
 }
 
-h2 {
-  font-size: $h2-font-size;
+@media screen and (max-width: 756px) {
+  @each $size in $heading-sizes {
+    $heading-no: index($heading-sizes, $size);
+    h#{$heading-no} {
+      font-size: $size*$tablet-scale-factor;
+    }
+  }
 }
 
-h3 {
-  font-size: $h3-font-size;
+@media screen and (max-width: 512px) {
+  @each $size in $heading-sizes {
+    $heading-no: index($heading-sizes, $size);
+    h#{$heading-no} {
+      font-size: $size*$mobile-scale-factor;
+    }
+  }
 }
