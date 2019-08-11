@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  font-family: Avenir, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 h1 {
@@ -108,7 +108,19 @@ h6 {
   display: inline;
   color: white;
 }
-
+.navbar li > a, .navbar .navbar-link, .navbar li > a:visited {
+  color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.navbar li > a:hover {
+  color: white;
+  font-stretch: expanded;
+}
 @media screen and (max-width: 700px) {
   .navbar {
     padding: 20px 0;

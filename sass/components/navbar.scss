@@ -12,6 +12,22 @@
     display: inline;
     color: $primary;
   }
+  li > a, .navbar-link {
+    color: $primary;
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  li > a:hover {
+    color: $primary;
+    font-stretch: expanded;
+  }
+  li > a:visited {
+    @extend .navbar-link
+  }
 }
 
 @media screen and(max-width: 700px) {
