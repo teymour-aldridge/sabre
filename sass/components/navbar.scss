@@ -1,27 +1,25 @@
 @import "../colours/variables";
 
-nav {
+.navbar {
   background-color: $secondary;
   position: sticky;
   padding: 10px 20px;
-}
-
-nav > ul {
-  list-style-type: none;
-}
-
-nav > ul > li {
-  padding: 10px 7.5px;
-  display: inline;
-  color: $primary;
+  ul {
+    list-style-type: none;
+  }
+  ul > li {
+    padding: 10px 7.5px;
+    display: inline;
+    color: $primary;
+  }
 }
 
 @media screen and(max-width: 700px) {
-  nav {
+  .navbar {
     padding: 20px 0;
-  }
-  nav > ul > li {
-    width: 100%;
-    display: block;
+    ul > li {
+      width: 100%;
+      display: block;
+    }
   }
 }
