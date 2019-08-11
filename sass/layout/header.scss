@@ -1,12 +1,10 @@
-.header-content {
+.header {
   padding-top: 10%;
   padding-bottom: 10%;
-}
-
-.header-content > h1 {
-  line-height: 0;
-}
-
-.header-content > h2 {
-  line-height: 0;
+  h2 {
+    line-height: 0;
+  }
+  h1 {
+    line-height: 0;
+  }
 }

@@ -1,13 +1,13 @@
-.header-content {
+.header {
   padding-top: 10%;
     padding-bottom: 10%;
 }
 
-.header-content > h1 {
+.header h2 {
     line-height: 0;
 }
 
-.header-content > h2 {
+.header h1 {
   line-height: 0;
 }
 
@@ -40,11 +40,9 @@ h3 {
   position: sticky;
   padding: 10px 20px;
 }
-
 .navbar ul {
   list-style-type: none;
 }
-
 .navbar ul > li {
   padding: 10px 7.5px;
   display: inline;
