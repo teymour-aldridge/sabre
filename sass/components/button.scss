@@ -1,5 +1,3 @@
-@import "../colours/colours";
-
 .button {
   background: $primary;
   box-shadow: none;
@@ -10,5 +8,14 @@
   .button-#{$padding} {
     @extend .button;
     padding: $padding*2 $padding*4;
+  }
+}
+
+@each $colour, $value in $colours {
+  @for $padding from 1 through 8 {
+    .button-#{$colour}-#{$padding} {
+      border: none;
+      background-color: $value;
+    }
   }
 }
