@@ -6,8 +6,10 @@
 
 @for $padding from 1 through 8 {
   .button-#{$padding} {
+    $x: $padding*2;
+    $y: $x * $button-aspect-ratio;
     @extend .button;
-    padding: #{$padding*2}px #{$padding*4}px;
+    padding: #{$y}px #{$x}px;
   }
 }
 
@@ -17,5 +19,13 @@
       border: none;
       background-color: $value;
     }
+  }
+}
+
+@for $radius from 1 through 8 {
+  .button-rounded-#{$radius} {
+    -webkit-border-radius: #{$radius}px;
+    -moz-border-radius: #{$radius}px;
+    border-radius: #{$radius}px;
   }
 }

@@ -10,6 +10,10 @@ COLOURS
 LAYOUT
 ============
 */
+/*
+COMPONENTS
+============
+ */
 .container {
   padding: 5% 15%;
 }
@@ -153,35 +157,35 @@ h6 {
 }
 
 .button-1 {
-  padding: 2px 4px;
+  padding: 1px 2px;
 }
 
 .button-2 {
-  padding: 4px 8px;
+  padding: 2px 4px;
 }
 
 .button-3 {
-  padding: 6px 12px;
+  padding: 3px 6px;
 }
 
 .button-4 {
-  padding: 8px 16px;
+  padding: 4px 8px;
 }
 
 .button-5 {
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .button-6 {
-  padding: 12px 24px;
+  padding: 6px 12px;
 }
 
 .button-7 {
-  padding: 14px 28px;
+  padding: 7px 14px;
 }
 
 .button-8 {
-  padding: 16px 32px;
+  padding: 8px 16px;
 }
 
 .button-primary-1 {
@@ -422,6 +426,54 @@ h6 {
 .button-white-8 {
   border: none;
   background-color: #fff;
+}
+
+.button-rounded-1 {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+.button-rounded-2 {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.button-rounded-3 {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.button-rounded-4 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.button-rounded-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button-rounded-6 {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.button-rounded-7 {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.button-rounded-8 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 .bg-primary {
@@ -479,35 +531,35 @@ h6 {
 }
 
 .button-1 {
-  padding: 2px 4px;
+  padding: 1px 2px;
 }
 
 .button-2 {
-  padding: 4px 8px;
+  padding: 2px 4px;
 }
 
 .button-3 {
-  padding: 6px 12px;
+  padding: 3px 6px;
 }
 
 .button-4 {
-  padding: 8px 16px;
+  padding: 4px 8px;
 }
 
 .button-5 {
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .button-6 {
-  padding: 12px 24px;
+  padding: 6px 12px;
 }
 
 .button-7 {
-  padding: 14px 28px;
+  padding: 7px 14px;
 }
 
 .button-8 {
-  padding: 16px 32px;
+  padding: 8px 16px;
 }
 
 .button-primary-1 {
@@ -748,6 +800,54 @@ h6 {
 .button-white-8 {
   border: none;
   background-color: #fff;
+}
+
+.button-rounded-1 {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+.button-rounded-2 {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.button-rounded-3 {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.button-rounded-4 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.button-rounded-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button-rounded-6 {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.button-rounded-7 {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.button-rounded-8 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 input[type=text], input[type=password] {
