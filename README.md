@@ -1,7 +1,19 @@
 # Sabre
 A small CSS framework. 
 # Installation
-Load the CSS onto your website using jsdelivr (this isn't a good option for high-bandwidth sites because the file is dynamically generated).
+### Loading Sabre from a CDN.
+**Production URL**
+
+Use this for production environments.
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre@master/sass/styles.min.css">
 ```
+**Development URL (not suited for production environments).**
+
+This link automatically gives you the latest version of Sabre – which may contain bugs.
+The file is also not automatically minified so it is slower to load.
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.css">
+```
+### Hosting Sabre yourself.
+You can <a href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.min.css" download>download sabre.min.css</a> and host it yourself.
