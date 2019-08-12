@@ -17,3 +17,29 @@ The file is also not automatically minified so it is slower to load.
 ```
 ### Hosting Sabre yourself.
 You can <a href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.min.css" download>download sabre.min.css</a> and host it yourself.
+
+# Project structure
+### Code
+```
+sass/
+    base/
+        variables.scss # Stores the sass variables.
+    colours/
+        colours.scss # Basic colour classes 
+    
+        
+    styles.scss # The default styles
+    styles.css # The default styles, compiled
+```
+### Documentation
+The `docs` folder is a misnomer, as it doesn't store the documentation. The documentation is stored in a separate repository and available at [https://sabrecss.netlify.com]([https://sabrecss.netlify.com]). 
+
+Instead, the docs folder stores example code which exhibits the functionality of Sabre.
+
+# Contribution
+Any contributions are welcome, whether to the scss code, documentation or examples.
+
+# Roadmap
+- Write javascript code
+    - Interfaces to mithril.js (a javascript client side framework).
+    - A JS library to enable interactive functionality.
