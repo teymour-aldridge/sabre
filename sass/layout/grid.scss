@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  order: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@each $size in $column-sizes {
+  .column-#{floor($size)} {
+    @extend .column;
+    width: percentage($size/100);
+  }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+  @each $size in $column-sizes {
+    .column-#{floor($size)} {
+      @if $size > 50 {
+        width: 100%;
+      }
+      @if $size <= 50 {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  @each $size in $column-sizes {
+    .column-#{floor($size)} {
+      width: 100%;
+    }
+  }
+}

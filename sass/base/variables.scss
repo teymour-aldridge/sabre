@@ -16,12 +16,17 @@ $hotpink: rgba(237, 28, 69, 0.85);
 $blue: #1269ff;
 $orange: #f78432;
 $white: #fff;
-$colours: ('primary': $primary, 'secondary': $secondary, 'hotpink': $hotpink, 'blue': $blue, 'orange': $orange, 'white': $white);
+$red: rgb(255, 34, 15);
+$colours: ('primary': $primary, 'secondary': $secondary, 'hotpink': $hotpink, 'blue': $blue, 'orange': $orange, 'white': $white, 'red': $red);
 /*
 LAYOUT
 ============
 */
-$padding-left: 15%;
+$side-padding: 15%;
+// The widths of all the columns
+$column-sizes: 20 25 40 100/3 50 60 2*100/3 80 100;
+$tablet-breakpoint: 756px;
+$mobile-breakpoint: 512px;
 /*
 COMPONENTS
 ============
