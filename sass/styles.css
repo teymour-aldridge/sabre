@@ -108,20 +108,19 @@ h6 {
     font-size: 8px;
   }
 }
-.navbar {
+.navbar, .navbar-sticky {
   background-color: black;
-  position: sticky;
   padding: 10px 20px;
 }
-.navbar ul {
+.navbar ul, .navbar-sticky ul {
   list-style-type: none;
 }
-.navbar ul > li {
+.navbar ul > li, .navbar-sticky ul > li {
   padding: 10px 7.5px;
   display: inline;
   color: white;
 }
-.navbar li > a, .navbar .navbar-link, .navbar li > a:visited {
+.navbar li > a, .navbar-sticky li > a, .navbar .navbar-link, .navbar-sticky .navbar-link, .navbar li > a:visited, .navbar-sticky li > a:visited {
   color: white;
   text-decoration: none;
   -webkit-transition-duration: 0.5s;
@@ -129,23 +128,27 @@ h6 {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-.navbar li > a:hover {
+.navbar li > a:hover, .navbar-sticky li > a:hover {
   color: white;
   font-stretch: expanded;
 }
 @media screen and (max-width: 700px) {
-  .navbar {
+  .navbar, .navbar-sticky {
     padding: 20px 0;
   }
-  .navbar ul > li {
+  .navbar ul > li, .navbar-sticky ul > li {
     width: 100%;
     display: block;
   }
 }
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+}
+
 .button, input[type=submit], .button-8, .button-7, .button-6, .button-5, .button-4, .button-3, .button-2, .button-1 {
   background: black;
   color: #fff;
-  box-shadow: none;
   border: none;
 }
 
@@ -472,7 +475,6 @@ h6 {
 .button, input[type=submit], .button-1, .button-2, .button-3, .button-4, .button-5, .button-6, .button-7, .button-8 {
   background: black;
   color: #fff;
-  box-shadow: none;
   border: none;
 }
 
