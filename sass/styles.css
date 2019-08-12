@@ -11,8 +11,7 @@ LAYOUT
 ============
 */
 .container {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 5% 15%;
 }
 
 .header {
