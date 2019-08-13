@@ -1,0 +1,8 @@
+@each $size in $padding-sizes {
+  $padding-no: index($padding-sizes, $size);
+  .size-#{$padding-no} {
+    $x: $size;
+    $y: $size*$padding-aspect-ratio;
+    padding: $y $x;
+  }
+}

@@ -2,7 +2,8 @@
 TYPOGRAPHY
 ============
 */
-$heading-sizes: 128px 64px 48px 32px 24px 16px;
+$heading-sizes: 4em 3em 2em 1em 0.75em 0.5em;
+$heading-class-sizes: 16em, 8em, 6em, 4em, 2em, 1em;
 $font-family: "Helvetica Neue", Helvetica, sans-serif;
 $tablet-scale-factor: 0.8;
 $mobile-scale-factor: 0.5;
@@ -27,9 +28,12 @@ $side-padding: 15%;
 $column-sizes: 20 25 40 100/3 50 60 2*100/3 80 100;
 $tablet-breakpoint: 756px;
 $mobile-breakpoint: 512px;
+
+$padding-aspect-ratio: 0.75; // The aspect ratio is the m (gradient/derivative) in the straight line equation y = mx + c
+$padding-sizes: 4, 8, 16, 32, 64, 128, 256;
 /*
 COMPONENTS
 ============
  */
 // Buttons
-$button-aspect-ratio: 0.5; // The aspect ration is the m in the straight line equation y = mx + c
+$button-padding-aspect-ratio: 0.5; // The aspect ration is the m in the straight line equation y = mx + c

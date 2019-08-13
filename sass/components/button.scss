@@ -7,7 +7,7 @@
 @for $padding from 1 through 8 {
   .button-#{$padding} {
     $x: $padding*2;
-    $y: $x * $button-aspect-ratio;
+    $y: $x * $button-padding-aspect-ratio;
     @extend .button;
     padding: #{$y}px #{$x}px;
   }
