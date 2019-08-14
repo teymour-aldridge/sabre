@@ -1,6 +1,10 @@
 @import "../components/button";
 
-input[type=text], input[type=password] {
+.form {
+
+}
+
+input[type=text] > .input-text, input[type=password] > .input-password {
   border: 1px solid $secondary;
   width: 55%;
   padding-top: 10px;
@@ -8,14 +12,10 @@ input[type=text], input[type=password] {
   padding-left: 10px;
 }
 
-textarea {
+textarea > .textarea {
   border: 1px solid $secondary;
   width: 55%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-}
-
-input[type=submit] {
-  @extend .button;
 }
