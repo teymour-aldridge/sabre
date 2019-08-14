@@ -6,14 +6,14 @@ A small CSS framework.
 
 Use this for production environments.
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre@master/sass/styles.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre@master/styles.min.css">
 ```
 **Development URL (not suited for production environments).**
 
 This link automatically gives you the latest version of Sabre – which may contain bugs.
-The file is also not automatically minified so it is slower to load.
+The file is also not automatically minified, for easier debugging, so it is slower to load.
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/styles.css">
 ```
 ### Hosting Sabre yourself.
 You can <a href="https://cdn.jsdelivr.net/gh/teymour-aldridge/sabre/sass/styles.min.css" download>download sabre.min.css</a> and host it yourself.

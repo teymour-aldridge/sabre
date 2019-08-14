@@ -1,5 +1,6 @@
 body {
   font-family: $font-family;
+  font-size: 100%;
 }
 
 @each $size in $heading-sizes {
@@ -13,23 +14,5 @@ body {
   $heading-no: index($heading-class-sizes, $size);
   .heading-size-#{$heading-no} {
     font-size: $size;
-  }
-}
-
-@media screen and (max-width: 756px) {
-  @each $size in $heading-sizes {
-    $heading-no: index($heading-sizes, $size);
-    h#{$heading-no} {
-      font-size: $size*$tablet-scale-factor;
-    }
-  }
-}
-
-@media screen and (max-width: 512px) {
-  @each $size in $heading-sizes {
-    $heading-no: index($heading-sizes, $size);
-    h#{$heading-no} {
-      font-size: $size*$mobile-scale-factor;
-    }
   }
 }

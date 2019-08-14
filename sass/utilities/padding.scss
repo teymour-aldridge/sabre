@@ -1,8 +1,33 @@
 @each $size in $padding-sizes {
+
   $padding-no: index($padding-sizes, $size);
-  .size-#{$padding-no} {
-    $x: $size;
-    $y: $size*$padding-aspect-ratio;
-    padding: $y $x;
+  $x: $size;
+  $y: $size*$padding-aspect-ratio;
+
+  .padding-#{$padding-no} {
+    padding: #{$y} #{$x};
   }
+
+  .padding-horizontal-#{$padding-no} {
+    padding-left: #{$x};
+    padding-right: #{$x};
+  }
+
+  .padding-left#{$padding-no} {
+    padding-left: #{$x};
+  }
+
+  .padding-vertical-#{$padding-no} {
+    padding-top: #{$x};
+    padding-bottom: #{$x};
+  }
+
+  .padding-bottom-#{$padding-no} {
+    padding-bottom: #{$x};
+  }
+
+  .padding-top-#{$padding-no} {
+    padding-top: #{$x};
+  }
+
 }

@@ -5,7 +5,7 @@ TYPOGRAPHY
 $heading-sizes: 4em 3em 2em 1em 0.75em 0.5em;
 $heading-class-sizes: 16em, 8em, 6em, 4em, 2em, 1em;
 $font-family: "Helvetica Neue", Helvetica, sans-serif;
-$tablet-scale-factor: 0.8;
+$tablet-scale-factor: 2;
 $mobile-scale-factor: 0.5;
 /*
 COLOURS
@@ -30,7 +30,7 @@ $tablet-breakpoint: 756px;
 $mobile-breakpoint: 512px;
 
 $padding-aspect-ratio: 0.75; // The aspect ratio is the m (gradient/derivative) in the straight line equation y = mx + c
-$padding-sizes: 4, 8, 16, 32, 64, 128, 256;
+$padding-sizes: 4px, 8px, 16px, 32px, 64px, 128px, 256px, 512px;
 /*
 COMPONENTS
 ============
